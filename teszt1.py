@@ -1,3 +1,4 @@
+homerseklet = 0
 def homerseklet():
     homersekletC = int(input("Kérék egy hőmérséklet értéket: "))
 
@@ -8,4 +9,5 @@ def homerseklet():
     else: 
         print("Lég halmazállapot.")
 
-homerseklet()
+homersekletC = int(input("Kérek egy hőmérséklet értéket: "))
+print(homerseklet())
